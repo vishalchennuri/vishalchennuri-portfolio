@@ -6,7 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
+import Leetcode from "./Leetcode";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -44,7 +44,7 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
+        <Leetcode />
         <Github />
       </Container>
     </Container>

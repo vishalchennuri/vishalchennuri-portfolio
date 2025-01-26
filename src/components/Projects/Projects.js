@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import swiggy from "../../Assets/Projects/swiggy.png";
+import restaurant from "../../Assets/Projects/restaurant.png";
+import weather from "../../Assets/Projects/weather.png";
 import fullscreen from "../../Assets/Projects/fullscreen-timer.png"
 function Projects() {
   return (
@@ -23,6 +20,33 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={swiggy}
+              isBlog={false}
+              title="Swiggy Clone"
+              description="A swiggy clone made using reactJS, Nodejs, MongoDb, and RazorPay Payment Gateway."
+              demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather App"
+              description="A weather App using Reactjs by connecting to a weather API Key."
+              demoLink="https://weatherappusingapi.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={restaurant}
+              isBlog={false}
+              title="Restaurant Finder"
+              description="A Restaurant Finder App which finds nearby restaurants and shows their menus made using ReactJS, Zomato API .But zomato ApI beign disabled after swiggy aquired it so it is not working now."
+              demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={fullscreen}
               isBlog={false}
               title="FullScreen-Timer"
@@ -30,6 +54,7 @@ function Projects() {
               demoLink="https://fullscreen-timer-vishalchennuri.vercel.app/"
             />
           </Col>
+
         </Row>
       </Container>
     </Container>
