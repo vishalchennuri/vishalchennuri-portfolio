@@ -45,6 +45,15 @@ function Projects() {
               demoLink="#"
             />
           </Col>
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fullscreen}
+              isBlog={false}
+              title="To-Do- Application"
+              description="A todo application Which helps managing your todo list which is built using Reactjs,Nodejs and mongoDb as database "
+              demoLink="#"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fullscreen}
