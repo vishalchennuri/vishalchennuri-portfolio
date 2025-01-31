@@ -6,7 +6,7 @@ This portfolio consists of :
 
         <--HOME-->
 
-----All my Profiles---
+-->All my Profiles
 
     -Instagram
     -LinkedIn
@@ -19,6 +19,7 @@ This portfolio consists of :
 -reading Books
 -Finance
 -Travelling
+
 -->SKILLSET
 -Java
 -Python
@@ -26,11 +27,14 @@ This portfolio consists of :
 -Nodejs
 -MongoDb
 -Firebase
+
 -->TOOLS I USE
 -Vs code
 -Postman
 -Vercel
+
 -->Leetcode profile
+
 -->GitHub Calender
 
         <--PROJECTS-->
