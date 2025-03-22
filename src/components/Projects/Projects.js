@@ -54,15 +54,15 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={fullscreen}
-              isBlog={false}
-              title="FullScreen-Timer"
-              description="A FullScreen Timer for Desktop while Doing meditation or Reading Books Or anyother Work. "
-              demoLink="https://fullscreen-timer-vishalchennuri.vercel.app/"
-            />
-          </Col>
+          // <Col md={4} className="project-card">
+          //   <ProjectCard
+          //     imgPath={fullscreen}
+          //     isBlog={false}
+          //     title="FullScreen-Timer"
+          //     description="A FullScreen Timer for Desktop while Doing meditation or Reading Books Or anyother Work. "
+          //     demoLink="https://fullscreen-timer-vishalchennuri.vercel.app/"
+          //   />
+          // </Col>
 
         </Row>
       </Container>
